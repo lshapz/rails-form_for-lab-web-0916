@@ -1,4 +1,17 @@
 Rails.application.routes.draw do
+  # get 'students/show'
+
+  # get 'students/new'
+
+  # get 'students/edit'
+
+  # get 'school_classes/show'
+
+  # get 'school_classes/new'
+
+  # get 'school_classes/edit'
+  resources :students
+  resources :school_classes
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
